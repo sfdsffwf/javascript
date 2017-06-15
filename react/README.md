@@ -162,6 +162,21 @@
     export default class ReservationCard extends React.Component {
     }
     ```
+    
+- Do not use `var` for variable declaration. Instead, use `let` or `const`. Why?: [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
+    ```jsx
+    // bad
+    var foo = 'bar';
+
+    // good
+    let foo = 'bar';
+    
+    // bad
+    var pi = 3.14;
+    
+    // good
+    const pi = 3.14;
+    ```
 
 ## Alignment
 
